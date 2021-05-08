@@ -1,3 +1,5 @@
+feather.replace()
+
 const t = document.getElementById("text-welcome");
 const text = document.getElementById("text-welcome").textContent;
 

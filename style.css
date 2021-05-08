@@ -158,6 +158,7 @@ header a {
   align-items: center;
 }
 
+
 @media (max-width: 1380px) {
   #container-projects {
     grid-template-columns: 400px 400px;
