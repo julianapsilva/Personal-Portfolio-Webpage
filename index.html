@@ -10,12 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <title>My Personal Portfolio</title>
   </head>
   <body>
     <header>
       <nav id="navbar">
-        <a href="#about">Sobre mim</a>
+        <a href="#about-me">Sobre mim</a>
         <a href="#projects">Projetos</a>
         <a href="#contact">Contato</a>
       </nav>
@@ -23,66 +25,87 @@
 
 
     <section id="welcome-section">
-      <h1>Hey, eu sou Juliana</h1>
+      <h1 id="text-welcome">Hey, eu sou Juliana</h1>
       <h2>a web developer</h2>
     </section>
 
     <section id="projects">
-      <h1>Esses são alguns dos meus projetos</h1>
+      <h1>MEUS PROJETOS</h1>
       <div id="container-projects">
 
       <div class="project-tile">
-        <img src="./calc.png" alt="">
-        <a href="https://codepen.io/julianapsilva/pen/poROgxy"
-          >Formulário de Pesquisa</a
+        <img src="/images/survey.jpg" alt="">
+        <a href="https://julianapsilva.github.io/Building-a-Survey-Form/" target="_blank">
+        
+        Formulário de Pesquisa
+         </a
         >
-        </div>
+      </div>
+      <div class="project-tile">
+        <img src="/images/desktop-design.jpg" alt="">
+        <a href="https://codepen.io/julianapsilva/pen/zYNyoMd">Landing page - seção de introdução</a>
+      </div>
+
+        
         <div class="project-tile">
-          <img src="./tribute.jpg" alt="">
+          <img src="/images/napoleon.jpeg" alt="">
           <a href="https://codepen.io/julianapsilva/pen/zYNyoMd">Tribute Page</a>
         </div>
 
         <div class="project-tile">
-          <img src="./random-quote-machine.png" alt="">
+          <img src="/images/landing-page.png" alt="">
           <a href="https://codepen.io/julianapsilva/pen/ExZrzYY">Landing Page</a>
         </div>
         
         <div class="project-tile">
-          <img src="./map.jpg" alt="">
-
+          <img src="/images/technical.png" alt="">
    <a href="https://codepen.io/julianapsilva/pen/vYgMxLM"
           >Página técnica de documentação</a
         >
         </div>
       </div>
+    </div>
 
         </section>
 
-      <section id="about">
-        <h1>Sobre mim</h1>
-        <div id="about-me">
-<img src="./juliana.png" alt="foto-perfil" />
+      <section id="about-me">
+<img src="/juliana.png" alt="foto-perfil" />
+<div id="mydescription">
+  <h2>Sobre mim</h2> 
         <p>
-          Atualmente cursando o 5° período de Ciência da Computação na
-          Universidade Federal de Juiz de Fora. Conhecimentos em HTML, CSS
-          responsivo, JavaScript e versionamento de código com Git e Github.
+          Meu nome é Juliana Silva. Atualmente estou cursando o 5° período de Ciência da Computação na
+          Universidade Federal de Juiz de Fora. Possuo conhecimento em HTML, CSS
+          responsivo, JavaScript, versionamento de código com Git e Github. 
         </p>
-        </div>
+</div>
+
       </section>
 
       <section id="contact">
-        <h1>Formas de contato</h1>
-        <a href="">Envie um e-mail</a>
-        <a
+        <div class="container-contact">
+    <div>
+          <p>julianadepaula001@gmail.com</p>
+        <p>(33) 98403-6052</p>
+        </div>
+
+        <div>
+                  <a
           id="profile-link"
           href="https://github.com/julianapsilva"
           target="_blank"
           >Github</a
         >
-        <a href="https://www.instagram.com/julianapsilva_/" target="_blank"
-          >Instagram</a
-        >
+
+        <a href="https://www.linkedin.com/in/juliana-silva-b859ba20b/" target="_blank">Linkedin</a>
+        </div>
+
+        </div>
+    
+
+
       </section>
     </section>
+    <script src="app.js"></script>
+
   </body>
 </html>
