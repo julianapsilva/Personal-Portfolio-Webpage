@@ -79,10 +79,18 @@ header a {
   gap: 80px;
   justify-content: center;
 }
+.project-tile a {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+
+}
 
 .project-tile img {
   width: 400px;
   height: 400px;
+  margin-bottom: 20px;
 }
 .project-tile img:hover {
   transform: scale(1.1);
